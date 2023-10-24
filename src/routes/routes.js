@@ -13,6 +13,7 @@ function App(){
                 <Route exact path='/' element={<App/>}/>
                 <Route exact path='/app' element={<App/>}/>
                 <Route exact path='/carrito' element={<Carrito/>}/>
+                
             </Routes>
         </Router>
     );
